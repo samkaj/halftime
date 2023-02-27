@@ -1,0 +1,7 @@
+{
+    "markdown.marp.themes": [
+        "https://rainbowflesh.github.io/css/rose-pine-dawn.css",
+        "https://rainbowflesh.github.io/css/rose-pine.css",
+        "https://raw.githubusercontent.com/matsubara0507/marp-themes/master/themes/colors.css"
+    ]
+}
