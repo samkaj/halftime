@@ -24,11 +24,11 @@ Provide a **GitHub Bot** for developers who wants to measure their projects' per
 
 ---
 
-<img src="Architecture.png" style="margin: auto; width: 80%;">
+<img src="Flow.png" style="margin: auto; width: 80%;">
 
 ---
 
-<img src="Flow.png" style="margin: auto; width: 80%;">
+<img src="Architecture.png" style="margin: auto; width: 80%;">
 
 ---
 
