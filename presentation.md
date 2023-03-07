@@ -24,25 +24,11 @@ Provide a **GitHub Bot** for developers who wants to measure their projects' per
 
 ---
 
-## Some Background
-
--   **Java Microbenchmarking Harness (JMH)** [[1]](#sources) - run performance tests on your Java projects
--   **GitHub Apps** [[2]](#sources) - communication with GitHub, send updates (**webhook events**) regarding projects to the Performance Bot
--   **MongoDB** [[3]](#sources) - open source NoSQL document-based database
+<img src="Architecture.png" style="margin: auto; width: 80%;">
 
 ---
 
-## The Plan
-
--   Using tools provided by **GitHub**, listen for requests to run a project's benchmarks
--   Run received benchmarks
--   Save benchmark results to a **MongoDB** database
--   Perform statistical analysis
--   Open an issue on **GitHub** with the results from the aforementioned analysis
-
-## Measuring Success
-
-The project is deemed successful if it can run a number of large projects using **JMH** (benchmarking framework for Java) and open issues on **GitHub** providing valuable information regarding the results from the run.
+<img src="Flow.png" style="margin: auto; width: 80%;">
 
 ---
 
@@ -72,48 +58,27 @@ The project is deemed successful if it can run a number of large projects using 
 
 ---
 
-## Progress and Continunation - Thesis Work
+## Scientific Relevancy and our Thesis
 
-<div style="columns: 2; height: 40vh">
-<div style="margin-bottom: 100px">
-
-<h3 style="margin-top: 0"> Progress </h3>
-
--   Preliminary structure
--   Background - both academic and technical
--   References
-
-</div>
-<div>
-
-### Upcoming
-
--   Describe the process
--   Scientific relevancy
--   Importance of performance analysis in CI
-
-</div>
-</div>
+-   Eliminating unnecessary work
+-   Providing inspiration
+-   Establishing a basis for future work
 
 ---
+
+## Evaluation Ideas
+
+-   Running large projects
+-   Communication
 
 ## Some Experiences
 
 -   Large stack
 -   Learning by doing
+-   Going from low level to high level languages
 
 ---
 
-## Questions?
-
----
+# Questions?
 
 <!-- _class: invert -->
-
-## Sources
-
-**[1]** OpenJDK, _JMH_ - [https://github.com/openjdk/jmh](https://github.com/openjdk/jmh)
-
-**[2]** GitHub, _About apps_ - [https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/about-apps](https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/about-apps)
-
-**[3]** MongoDB Inc., _What Is MongoDB_ - [https://www.mongodb.com/what-is-mongodb](https://www.mongodb.com/what-is-mongodb)
